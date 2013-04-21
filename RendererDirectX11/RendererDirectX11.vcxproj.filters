@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="RendererDirectX11.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="RendererDirectX11Lib.h" />
+    <ClInclude Include="RenderableMesh.h">
+      <Filter>Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShader.h">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShader.h">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="FontShader.h">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableText.h">
+      <Filter>Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="DxFont.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FontsLib.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableImage.h">
+      <Filter>Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableImageTile.h">
+      <Filter>Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableDepthMapMesh.h">
+      <Filter>Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthMapShader.h">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RendererDirectX11.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="RenderableMesh.cpp">
+      <Filter>Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderablesFactory.cpp">
+      <Filter>Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseShader.cpp">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShader.cpp">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="FontShader.cpp">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableText.cpp">
+      <Filter>Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="DxFont.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableImage.cpp">
+      <Filter>Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableImageTile.cpp">
+      <Filter>Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableDepthMapMesh.cpp">
+      <Filter>Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthMapShader.cpp">
+      <Filter>Shaders\ShaderWrappers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{29cbe96e-da98-4e5d-8d01-dd94a7324683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderables">
+      <UniqueIdentifier>{2f990625-8893-4582-862c-419d710d908d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ShaderWrappers">
+      <UniqueIdentifier>{b129f12c-a888-4e48-87eb-4ff9f2243f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{96c5faf5-6475-45aa-b026-87d808f79137}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\ColorPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ColorVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\FontPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TextureVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TexurePS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DepthMapPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DepthMapVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\FontVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Inlines.h" />
+    <ClInclude Include="SmartObject.h" />
+    <ClInclude Include="SmartPtr.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="HResultHandling.h" />
+    <ClInclude Include="NotifiableProperty.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="SmartDelegate.h" />
+    <ClInclude Include="MultiThreading.h" />
+    <ClInclude Include="MemoryAllocator.h" />
+    <ClInclude Include="PagedVector.h" />
+    <ClInclude Include="String.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="String.cpp" />
+  </ItemGroup>
+</Project>

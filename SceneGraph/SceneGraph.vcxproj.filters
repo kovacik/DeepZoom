@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SceneObjectGroup.h" />
+    <ClInclude Include="SceneGraph.h" />
+    <ClInclude Include="SceneObject.h" />
+    <ClInclude Include="SceneObjectCamera.h" />
+    <ClInclude Include="SceneObjectGrid.h" />
+    <ClInclude Include="SceneGraphLib.h" />
+    <ClInclude Include="SceneObjectMesh.h" />
+    <ClInclude Include="IndexStream.h" />
+    <ClInclude Include="MeshStream.h" />
+    <ClInclude Include="VertexStream.h" />
+    <ClInclude Include="SceneObjectText.h" />
+    <ClInclude Include="SceneObjectPointCloud.h" />
+    <ClInclude Include="SceneGraphEditor.h">
+      <Filter>SceneGraphEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectImage.h" />
+    <ClInclude Include="SceneObjectDepthMapMesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SceneGraph.cpp" />
+    <ClCompile Include="SceneObject.cpp" />
+    <ClCompile Include="SceneObjectCamera.cpp" />
+    <ClCompile Include="SceneObjectGrid.cpp" />
+    <ClCompile Include="SceneObjectGroup.cpp" />
+    <ClCompile Include="SceneObjectMesh.cpp" />
+    <ClCompile Include="IndexStream.cpp" />
+    <ClCompile Include="MeshStream.cpp" />
+    <ClCompile Include="VertexStream.cpp" />
+    <ClCompile Include="SceneObjectText.cpp" />
+    <ClCompile Include="SceneObjectPointCloud.cpp" />
+    <ClCompile Include="SceneGraphEditor.cpp">
+      <Filter>SceneGraphEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectImage.cpp" />
+    <ClCompile Include="SceneObjectDepthMapMesh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SceneGraphEditor">
+      <UniqueIdentifier>{3644e733-5404-4513-8ae7-8131a57d1b32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
